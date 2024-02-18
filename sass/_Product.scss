@@ -1,0 +1,18 @@
+.product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 30px;
+  border: solid 1px #CBCECF;
+  padding: 50px 50px 0 0;
+  background-color: #25292C;
+  margin-bottom: 50px;
+  gap: 30px;
+  h4 {
+    font-size: 40px;
+    color: #CBCECF;
+    margin-bottom: 40px;
+  }
+  p {
+    line-height: 25px;
+  }
+}

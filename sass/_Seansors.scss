@@ -1,0 +1,32 @@
+.sensor {
+  border-radius: 30px;
+  border: solid 1px #CBCECF;
+  padding: 50px 50px 0 50px;
+  background-color: #25292C;
+  margin-bottom: 50px;
+  h2 {
+    font-size: 40px;
+    color: #CBCECF;
+    text-align: center;
+  }
+  img {
+    position: relative;
+    bottom: 0;
+    left: 25%;
+  }
+  .sensor_desc {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    position: absolute;
+    h3 {
+      font-size: 24px;
+      color: #CBCECF;
+      margin-bottom: 30px;
+      width: 260px;
+    }
+    .sensor_desc_gos {
+      margin-right: 700px;
+    }
+  }
+}

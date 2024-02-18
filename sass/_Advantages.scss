@@ -1,0 +1,51 @@
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+  .protection {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 30px;
+    border: solid 1px #CBCECF;
+    padding: 50px 50px 0 50px;
+    background-color: #25292C;
+    h2 {
+      font-size: 40px;
+      color: #FFFFFF;
+      margin-bottom: 50px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  }
+  .usb {
+    display: flex;
+    grid-area: 1 / 2;
+    border-radius: 30px;
+    border: solid 1px #CBCECF;
+    padding: 50px 0 0 50px;
+    background-color: #25292C;
+    p {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+  .guarantion {
+    grid-area: 2 / 2;
+    border-radius: 30px;
+    border: solid 1px #CBCECF;
+    padding: 50px 50px 0 50px;
+    background-color: #25292C;
+    h2 {
+      font-size: 80px;
+      font-weight: 700;
+      color: #FFFFFF;
+      text-align: center;
+    }
+  }
+}

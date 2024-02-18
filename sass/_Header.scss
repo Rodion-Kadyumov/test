@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+  margin-bottom: 100px;
+  img {
+    width: 35px;
+    margin-right: 100px;
+  }
+    div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 40px;
+    a {
+      cursor: pointer;
+      margin: 0 30px;
+      color: #CBCECF;
+      font-size: 16px;
+    }
+    a:hover {
+      color: red;
+    }
+    input {
+      width: 200px;
+      height: 30px;
+      border-radius: 3px;
+      padding: 0 0 0 10px;
+      background-color: #25292B;
+      background-size: auto 90%;
+      border: solid 1px #CBCECF;
+      margin: 0 100px;
+    }
+    img {
+      width: 30px;
+      margin: 0 10px;
+    }          
+  }
+  
+}
